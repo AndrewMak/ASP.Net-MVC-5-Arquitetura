@@ -1,0 +1,287 @@
+﻿@model VG.Profissional.Aplicacao.ViewModels.CurriculoViewModel
+
+@{
+    ViewBag.Title = "Vinicius Grund - Desenvolvimento Web - Arquitetura, Desenvolvimento de sistemas";
+    Layout = "~/Views/Shared/_LayoutCurriculo.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Vinicius Grund">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light">@Model.Nome</span>
+                </a>
+            </div>
+
+            <div class="navbar-collapse navbar-right navbar-main-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#apresentacao"> Apresentação </a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#competencias"> Competências </a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#experiencia"> Experiência </a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#cursos"> Cursos </a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#ferramentas"> Ferramentas </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="Images/profile.png" alt="@Model.Nome">
+                    <div class="intro-text">
+                        <span class="name">@Model.Nome</span>
+                        <hr class="star-light">
+                        <span class="skills">WEB DEVELOPER | ASP.NET MVC 5 | JAVA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Apresentação Grid Section -->
+    <section id="apresentacao" class="content-section apresentacao-section">
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-lg-12 text-center">
+                    <h2>Apresentação</h2>
+                    <hr />
+                </div>
+            </div>
+            <div class="row text-center">
+                <div>
+                    @foreach (var apresentacao in @Model.Apresentacoes)
+                    {
+                        <h6>@apresentacao.Texto</h6>
+                        
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- competencias Section -->
+    <section class="bg-dark content-section" id="competencias">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Competências</h2>
+                    <hr />
+                </div>
+            </div>
+            <div class="row row-centered">
+                @foreach (var competencia in @Model.Competencias)
+                {
+                    <div class="col-md-6 text-left col-centered">
+                        <div class="panel bg-dark">
+                            <div class="panel-body well">
+                                <div>
+                                    <h4>@competencia.Nome</h4>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <small class="stats-label">Nível de Maturidade</small>
+                                    <h6>@competencia.NivelMaturidade</h6>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <small class="stats-label">Anos de Experiência</small>
+                                    <h6>@competencia.AnosExperiencia</h6>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <small class="stats-label">Última utilização</small>
+                                    <h6>@competencia.UltimaUtilizacao</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- experiencias Section -->
+    <section id="experiencia" class="experiencia-section content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experiências</h2>
+                    <hr />
+                </div>
+            </div>
+            <div class="row row-centered">
+                @foreach (var experiencia in @Model.Experiencias)
+                {
+                    <div class="col-md-6 col-centered border-right col-margin-bottom">
+                        <div>
+                            <h4>@experiencia.NomeEmpresa</h4>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <small class="stats-label">Cargo</small>
+                            <h6>@experiencia.Cargo</h6>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <small class="stats-label">Tempo(Anos)</small>
+                            <h6>@experiencia.Anos</h6>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- cursos Section -->
+    <section class="content-section bg-dark" id="cursos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Cursos</h2>
+                    <hr />
+                </div>
+            </div>
+            <div class="row row-centered">
+                @foreach (var curso in @Model.Cursos)
+                {
+                    <div class="col-md-4 text-left col-centered col-margin-bottom">
+                        <div class="panel bg-dark">
+                            <div class="panel-body well">
+                                <div>
+                                    <h4>@curso.Instituicao</h4>
+                                </div>
+
+                                <div class="col-xs-12">
+                                    <div class="box box-primary ">
+                                        <div class="box-header bg-dark">
+                                            <div class="pull-right ">
+                                                <button class="btn btn-box-tool"><small><em>Ementa</em></small></button>
+                                            </div>
+                                            <div class=""><h6>@curso.Nome</h6></div>
+                                        </div>
+                                        <div id="@curso.CursoId" class="bg-dark ementa" style="display:none;">
+                                            @Html.Raw(curso.Ementa.Replace("\n", "<br/>"))
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- ferramentas Section -->
+    <section id="ferramentas" class="ferramenta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Ferramentas</h2>
+                    <hr />
+                </div>
+            </div>
+            <div class="row row-centered">
+                @foreach (var ferramenta in @Model.Ferramentas)
+                {
+                    <div class="col-md-3 text-center col-centered border-right">
+                        <div class="text-center">
+                            <h5>@ferramenta.Nome</h5>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Localização</h3>
+                        <p>@Model.Localizacao</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Na Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="@Model.Contato.Facebook" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="@Model.Contato.LinkedIn" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="@Model.Contato.LinkedIn" class=""><img src="~/Images/github.png"/></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Profissionais TI</h3>
+                        <p>O propósito deste site é apresentar a carreira de profissionais de TI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".btn.btn-box-tool").click(function () {
+                var x = $(this).parent().parent().parent().find(".ementa");
+                x.toggle();
+            });
+        });
+    </script>
+</body>
+</html>
+
+

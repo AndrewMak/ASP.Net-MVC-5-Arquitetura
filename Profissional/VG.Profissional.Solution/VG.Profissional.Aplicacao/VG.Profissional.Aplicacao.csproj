@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EBDDE800-F1BF-49FA-AD23-FFE45DE7A9F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VG.Profissional.Aplicacao</RootNamespace>
+    <AssemblyName>VG.Profissional.Aplicacao</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoMapper\AutoMapperConfig.cs" />
+    <Compile Include="AutoMapper\DomainToViewModelMappingProfile.cs" />
+    <Compile Include="AutoMapper\ViewModelToDomainMappingProfile.cs" />
+    <Compile Include="Interfaces\IApresentacaoAppServicos.cs" />
+    <Compile Include="Interfaces\ICompetenciaAppServicos.cs" />
+    <Compile Include="Interfaces\IContatoAppServicos.cs" />
+    <Compile Include="Interfaces\ICurriculoAppServicos.cs" />
+    <Compile Include="Interfaces\ICursoAppServicos.cs" />
+    <Compile Include="Interfaces\IExperienciaAppServicos.cs" />
+    <Compile Include="Interfaces\IFerramentaAppServicos.cs" />
+    <Compile Include="Interfaces\IUsuarioAppServicos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicos\AppService.cs" />
+    <Compile Include="Servicos\ApresentacaoAppServicos.cs" />
+    <Compile Include="Servicos\CompetenciaAppServicos.cs" />
+    <Compile Include="Servicos\ContatoAppServicos.cs" />
+    <Compile Include="Servicos\CurriculoAppServicos.cs" />
+    <Compile Include="Servicos\CursoAppServicos.cs" />
+    <Compile Include="Servicos\ExperienciaAppServicos.cs" />
+    <Compile Include="Servicos\FerramentaAppServicos.cs" />
+    <Compile Include="Servicos\UsuarioAppServicos.cs" />
+    <Compile Include="ViewModels\ApresentacaoViewModel.cs" />
+    <Compile Include="ViewModels\CompetenciaViewModel.cs" />
+    <Compile Include="ViewModels\ContatoViewModel.cs" />
+    <Compile Include="ViewModels\CurriculoCompletoViewModel.cs" />
+    <Compile Include="ViewModels\CurriculoContatoViewModel.cs" />
+    <Compile Include="ViewModels\CurriculoViewModel.cs" />
+    <Compile Include="ViewModels\CursoViewModel.cs" />
+    <Compile Include="ViewModels\ExperienciaViewModel.cs" />
+    <Compile Include="ViewModels\FerramentaViewModel.cs" />
+    <Compile Include="ViewModels\UsuarioViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\VG.Profissional.Dominio\VG.Profissional.Dominio.csproj">
+      <Project>{E9B1FA2A-D8E4-4972-A923-2F4E1FAD7338}</Project>
+      <Name>VG.Profissional.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VG.Profissional.Infra.Data\VG.Profissional.Infra.Data.csproj">
+      <Project>{d8728639-a12d-4190-9d3f-abdbfabd8f38}</Project>
+      <Name>VG.Profissional.Infra.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

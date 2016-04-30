@@ -1,0 +1,5 @@
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Dominio\bin\Debug\VG.Profissional.Dominio.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Dominio\bin\Debug\VG.Profissional.Dominio.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Dominio\obj\Debug\VG.Profissional.Dominio.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Dominio\obj\Debug\VG.Profissional.Dominio.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Dominio\obj\Debug\VG.Profissional.Dominio.csprojResolveAssemblyReference.cache

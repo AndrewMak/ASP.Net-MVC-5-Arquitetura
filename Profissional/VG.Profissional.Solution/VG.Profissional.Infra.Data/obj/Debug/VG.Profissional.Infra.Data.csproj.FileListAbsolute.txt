@@ -1,0 +1,17 @@
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\VG.Profissional.Infra.Data.dll.config
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\VG.Profissional.Infra.Data.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\VG.Profissional.Infra.Data.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\Dapper.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\EntityFramework.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\VG.Profissional.Dominio.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\VG.Profissional.Dominio.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\Dapper.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\Dapper.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\EntityFramework.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\obj\Debug\VG.Profissional.Infra.Data.csprojResolveAssemblyReference.cache
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\obj\Debug\VG.Profissional.Infra.Data.Migrations.Initial.resources
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\obj\Debug\VG.Profissional.Infra.Data.csproj.GenerateResource.Cache
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\obj\Debug\VG.Profissional.Infra.Data.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.Data\obj\Debug\VG.Profissional.Infra.Data.pdb

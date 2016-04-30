@@ -1,0 +1,17 @@
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\VG.Profissional.Infra.CrossCutting.MVCFiltros.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\VG.Profissional.Infra.CrossCutting.MVCFiltros.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.Helpers.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.Mvc.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.Razor.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.WebPages.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.WebPages.Razor.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.Helpers.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.Mvc.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.Razor.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.WebPages.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\bin\Debug\System.Web.WebPages.Razor.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\obj\Debug\VG.Profissional.Infra.CrossCutting.MVCFiltros.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.MVCFiltros\obj\Debug\VG.Profissional.Infra.CrossCutting.MVCFiltros.pdb

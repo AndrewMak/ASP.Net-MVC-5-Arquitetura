@@ -1,0 +1,4 @@
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.Seguranca\bin\Debug\VG.Profissional.Infra.CrossCutting.Seguranca.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.Seguranca\bin\Debug\VG.Profissional.Infra.CrossCutting.Seguranca.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.Seguranca\obj\Debug\VG.Profissional.Infra.CrossCutting.Seguranca.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Infra.CrossCutting.Seguranca\obj\Debug\VG.Profissional.Infra.CrossCutting.Seguranca.pdb

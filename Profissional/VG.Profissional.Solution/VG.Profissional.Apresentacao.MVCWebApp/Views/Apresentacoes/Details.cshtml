@@ -1,0 +1,34 @@
+﻿@model VG.Profissional.Aplicacao.ViewModels.ApresentacaoViewModel
+
+@{
+    ViewBag.Title = "Detalhes da Apresentação";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CurriculoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Curriculo.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Texto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Texto)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ApresentacaoId }) |
+    @Html.ActionLink("Voltar para a lista", "Index")
+</p>

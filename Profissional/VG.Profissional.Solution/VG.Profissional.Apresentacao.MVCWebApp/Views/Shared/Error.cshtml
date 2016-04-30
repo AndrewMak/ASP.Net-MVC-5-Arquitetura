@@ -1,0 +1,10 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "OPS!";
+}
+
+<h1 class="text-danger">OPS!</h1>
+<h2 class="text-danger">Ocorreu um erro, tente novamente ou contate o suporte.</h2>
+<h2 class="text-danger">Código do Erro: @TempData["CodErro"]</h2>
+

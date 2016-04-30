@@ -1,0 +1,50 @@
+﻿@model VG.Profissional.Aplicacao.ViewModels.ExperienciaViewModel
+
+@{
+    ViewBag.Title = "Detalhes de Experiência";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CurriculoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Curriculo.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeEmpresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeEmpresa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cargo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cargo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Anos)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ExperienciaId }) |
+    @Html.ActionLink("Voltar para a lista", "Index")
+</p>

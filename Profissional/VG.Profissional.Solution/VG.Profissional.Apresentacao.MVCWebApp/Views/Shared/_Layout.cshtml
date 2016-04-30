@@ -1,0 +1,83 @@
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>@ViewBag.Title</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link href="~/Content/admin/AdminLTE.min.css" rel="stylesheet" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="~/Content/admin/skin-blue.min.css" rel="stylesheet"/>
+    
+    @*@Styles.Render("~/Content/admincss")*@
+   
+    
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/adminjs")
+
+
+</head>
+<body class="hold-transition skin-blue layout-top-nav">
+    <div class="wrapper">
+
+        <header class="main-header">
+            <nav class="navbar navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <span class="navbar-brand"><b>Admin Profissional</b></span>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+
+                    @using Microsoft.AspNet.Identity
+                    @if (Request.IsAuthenticated)
+                    {
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Currículo <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="/Curriculos">Currículos</a></li>
+                                        <li><a href="/Apresentacoes">Apresentações</a></li>
+                                        <li><a href="/Competencias">Competências</a></li>
+                                        <li><a href="/Contatos">Contatos</a></li>
+                                        <li><a href="/Cursos">Cursos</a></li>
+                                        <li><a href="/Experiencias">Experiências</a></li>
+                                        <li><a href="/Ferramentas">Ferramentas</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    }
+
+                    @Html.Partial("_LoginPartial")
+                   
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="container">
+                @RenderBody()
+            </div>
+        </div>
+
+    </div>
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

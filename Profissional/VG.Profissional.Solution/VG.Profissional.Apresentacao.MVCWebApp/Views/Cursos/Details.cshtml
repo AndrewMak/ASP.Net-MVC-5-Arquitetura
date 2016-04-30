@@ -1,0 +1,50 @@
+﻿@model VG.Profissional.Aplicacao.ViewModels.CursoViewModel
+
+@{
+    ViewBag.Title = "Detalhes do Curso";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CurriculoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Curriculo.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Instituicao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Instituicao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ementa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ementa)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.CursoId }) |
+    @Html.ActionLink("Voltar para a lista", "Index")
+</p>

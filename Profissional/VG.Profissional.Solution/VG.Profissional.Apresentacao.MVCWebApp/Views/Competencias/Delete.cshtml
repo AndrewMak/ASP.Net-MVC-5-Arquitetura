@@ -1,0 +1,64 @@
+﻿@model VG.Profissional.Aplicacao.ViewModels.CompetenciaViewModel
+
+@{
+    ViewBag.Title = "Exclusão de Competência";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<h3>Você tem certeza que deseja excluir isso?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Curriculo.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Curriculo.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NivelMaturidade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NivelMaturidade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnosExperiencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnosExperiencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UltimaUtilizacao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UltimaUtilizacao)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar para a lista", "Index")
+        </div>
+    }
+</div>

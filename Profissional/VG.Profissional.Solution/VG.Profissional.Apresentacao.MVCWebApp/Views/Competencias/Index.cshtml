@@ -1,0 +1,58 @@
+﻿@model IEnumerable<VG.Profissional.Aplicacao.ViewModels.CompetenciaViewModel>
+
+@{
+    ViewBag.Title = "Lista de Competências";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Criar novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CurriculoId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NivelMaturidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AnosExperiencia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UltimaUtilizacao)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Curriculo.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NivelMaturidade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnosExperiencia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UltimaUtilizacao)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.CompetenciaId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.CompetenciaId }) |
+            @Html.ActionLink("Excluir", "Delete", new { id=item.CompetenciaId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,5 @@
+D:\workspace\trunk\DOT.Net\Projeto Modelo MVC DDD\NomeEmpresa.NomeProjeto.Solution\NEmpresa.NProjeto.Infra.Data\bin\Debug\NEmpresa.NProjeto.Infra.Data.dll
+D:\workspace\trunk\DOT.Net\Projeto Modelo MVC DDD\NomeEmpresa.NomeProjeto.Solution\NEmpresa.NProjeto.Infra.Data\bin\Debug\NEmpresa.NProjeto.Infra.Data.pdb
+D:\workspace\trunk\DOT.Net\Projeto Modelo MVC DDD\NomeEmpresa.NomeProjeto.Solution\NEmpresa.NProjeto.Infra.Data\obj\Debug\NEmpresa.NProjeto.Infra.Data.csprojResolveAssemblyReference.cache
+D:\workspace\trunk\DOT.Net\Projeto Modelo MVC DDD\NomeEmpresa.NomeProjeto.Solution\NEmpresa.NProjeto.Infra.Data\obj\Debug\NEmpresa.NProjeto.Infra.Data.dll
+D:\workspace\trunk\DOT.Net\Projeto Modelo MVC DDD\NomeEmpresa.NomeProjeto.Solution\NEmpresa.NProjeto.Infra.Data\obj\Debug\NEmpresa.NProjeto.Infra.Data.pdb

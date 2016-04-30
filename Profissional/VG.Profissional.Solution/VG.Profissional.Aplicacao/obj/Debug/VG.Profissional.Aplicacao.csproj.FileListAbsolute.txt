@@ -1,0 +1,16 @@
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\VG.Profissional.Aplicacao.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\VG.Profissional.Aplicacao.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\AutoMapper.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\VG.Profissional.Dominio.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\VG.Profissional.Dominio.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\AutoMapper.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\obj\Debug\VG.Profissional.Aplicacao.csprojResolveAssemblyReference.cache
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\obj\Debug\VG.Profissional.Aplicacao.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\obj\Debug\VG.Profissional.Aplicacao.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\VG.Profissional.Infra.Data.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\EntityFramework.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\Dapper.dll
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\VG.Profissional.Infra.Data.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\EntityFramework.xml
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\Dapper.pdb
+D:\workspace\trunk\DOT.Net\Profissional\VG.Profissional.Solution\VG.Profissional.Aplicacao\bin\Debug\Dapper.xml
